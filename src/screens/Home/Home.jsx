@@ -10,7 +10,7 @@ const Home = () => {
     console.log("onError")
   };
 
-  const { coords, isGeolocationAvailable, isGeolocationEnabled } =
+  const { coords } =
     useGeolocated({
       positionOptions: {
         enableHighAccuracy: false,
